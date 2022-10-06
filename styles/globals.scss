@@ -15,12 +15,8 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
